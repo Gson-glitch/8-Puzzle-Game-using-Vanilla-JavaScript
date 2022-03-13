@@ -1,0 +1,75 @@
+/* CSS RESET */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* END CSS RESET */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: lightskyblue url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg');
+	color: #fff;
+}
+
+#container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#container h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#container .main_tile {
+    width: 30vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(18, 32, 109);
+    margin: auto;
+    border: 2px solid #fff;
+    z-index: 111;
+}
+
+#container .main_tile .subtile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff; 
+    font-size: 2rem;   
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#container .main_tile .subtile:hover {
+    cursor: pointer;  
+}
+
+#container .btn {
+    margin: 2rem auto;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+}
+
+#container .btn:hover {
+    cursor: pointer;
+    background-color: rgb(83, 105, 233);
+}
+
+.victory {
+    display: none;
+}

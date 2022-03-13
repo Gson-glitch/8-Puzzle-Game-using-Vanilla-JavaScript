@@ -1,0 +1,8 @@
+#container h3 {
+    font-size: 3rem;
+}
+
+#container .main_tile {
+    width: 60vw;
+    height: 40vh;
+}
